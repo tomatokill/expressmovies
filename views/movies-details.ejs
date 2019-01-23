@@ -6,12 +6,12 @@
     <link rel="stylesheet" href="../public/styles.css"/>    
 </head>
 <body>
-    <div class="central">     
+    <div class="central">        
         <% include ./partials/header %>    
-        <h1>Express Movies : Le site des cinéhiles</h1>
+        <h1>Détails du film <%= movietitle %></h1>
         <div>
-            Plutôt films ou séries?
-        </div>            
+            <%= movieid %>
+        </div>
     </div>
     <% include ./partials/footer %>
 </body>
